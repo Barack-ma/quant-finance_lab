@@ -1,0 +1,22 @@
+﻿# Quant Lab 🧮
+Experiments in quantitative finance — Monte Carlo option pricing, backtesting, and volatility modeling.
+
+## Structure
+- monte-carlo-options/
+- backtesting-engine/
+- volatility-forecast/
+
+## Setup
+\\\ash
+pip install -r requirements.txt
+\\\
+"@ | Out-File -Encoding utf8 README.md
+
+@"
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+data/
+outputs/
+.env
+.DS_Store
