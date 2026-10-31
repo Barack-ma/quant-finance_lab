@@ -1,24 +1,19 @@
 # Quantitative Finance Lab
 
-A collection of projects exploring quantitative finance, financial engineering,
-market modeling, and algorithmic trading.
+A workspace for quantitative finance, market simulation, and research software.
 
-## Projects
+## Status
 
-### Backtesting Engine
-A Python-based backtesting framework for evaluating trading strategies on historical data.
+**Project scaffolding.** The folders below currently contain placeholders, not working implementations. Code, tests, results, and reproducible setup instructions will be added as each project is developed.
 
-### Monte Carlo Options
-Monte Carlo simulation methods for pricing financial derivatives and exploring option behavior.
+## Planned projects
 
-### Volatility Forecasting
-Experiments in modeling and forecasting market volatility using statistical and machine-learning methods.
+- **Backtesting engine** (`backtesting-engine/`) — strategy evaluation on historical data
+- **Monte Carlo options** (`monte-carlo-options/`) — simulation-based derivatives pricing
+- **Volatility forecasting** (`volatility-forecast/`) — statistical or machine-learning volatility models
 
-## Goals
-- Strengthen financial engineering and quantitative modeling skills
-- Build reusable tools for strategy research
-- Explore market microstructure and risk modeling
-- Progress toward higher-performance implementations in C++
+## Documentation standard
 
-## Tech
-Python, NumPy, Pandas, Matplotlib, SciPy, scikit-learn
+Each implemented project will report inputs, assumptions, dependencies, how to run tests, results, and limitations.
+
+See [Engineering Projects](https://github.com/Barack-ma/engineering_projects) for current hardware-oriented work.
